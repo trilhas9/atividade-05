@@ -1,14 +1,15 @@
-let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
-let numeroSecreto = gerarNumeroAleatorio();
-let qtTentativas = 1;
+let listaDeNumerosSorteados = [];    // Cria uma lista vazia
+let numeroLimite = 100;    // Define um limite para o intervalo de números aleatórios
+let numeroSecreto = gerarNumeroAleatorio();    // Inicia gerando um número aleatório
+let qtTentativas = 1;  
 
-// Função exibe o texto na tela
+// Função exibir na tela
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
 }
 
+// Função exibir mensagem inicial na tela
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
