@@ -3,6 +3,7 @@ let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let qtTentativas = 1;
 
+// Função exibe o texto na tela
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
