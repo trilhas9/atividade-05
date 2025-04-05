@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];    // Cria uma lista vazia
-let numeroLimite = 50;    // Define um limite para o intervalo de números aleatórios
+let numeroLimite = 40;    // Define um limite para o intervalo de números aleatórios
 let numeroSecreto = gerarNumeroAleatorio();    // Inicia gerando um número aleatório
 let qtTentativas = 1;  
 
